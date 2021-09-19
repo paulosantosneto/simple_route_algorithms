@@ -37,7 +37,8 @@ class Map:
 
     uruguaiana.addNearCity(Adjacent(santa_maria))
     uruguaiana.addNearCity(Adjacent(bage))
-
+    uruguaiana.addNearCity(Adjacent(sao_borja))
+    
     santa_maria.addNearCity(Adjacent(sao_borja))
     santa_maria.addNearCity(Adjacent(cruz_alta))
     santa_maria.addNearCity(Adjacent(santa_cruz_do_sul))
@@ -47,7 +48,8 @@ class Map:
 
     sao_borja.addNearCity(Adjacent(cruz_alta))
     sao_borja.addNearCity(Adjacent(santa_maria))
-
+    sao_borja.addNearCity(Adjacent(uruguaiana))
+    
     santa_cruz_do_sul.addNearCity(Adjacent(passo_fundo))
     santa_cruz_do_sul.addNearCity(Adjacent(porto_alegre))
     santa_cruz_do_sul.addNearCity(Adjacent(santa_maria))
