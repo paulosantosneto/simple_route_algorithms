@@ -15,9 +15,9 @@ All distances that appear on the map were taken directly from google maps, with 
 
 To implement the greedy search algorithms and A* it is necessary that the calculation of the Euclidean distance between one city and all the others is done. For this, the website https://www.adistanciaentre.com was used, which allows calculating the air distance between two cities.
 
-## Comparation: A* x Greedy
+## Comparison: A* x Greedy
 
-![map_comparation](map_comparation.png)
+![map_comparison](map_comparison.png)
 
 Assuming that the blue route is found by the A* algorithm, while the yellow route is found by the greedy algorithm, the path decrease is noticeable.
 
