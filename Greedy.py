@@ -120,7 +120,6 @@ class OrderedVector:
 class Greedy:
     def __init__(self, goal):
         self.goal = goal
-        self.arr = OrderedVector(20)
         self.found = False
 
     def search(self, current):
