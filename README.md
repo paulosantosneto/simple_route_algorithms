@@ -21,7 +21,7 @@ To implement the greedy search algorithms and A* it is necessary that the calcul
 
 Assuming that the blue route is found by the A* algorithm, while the yellow route is found by the greedy algorithm, the path decrease is noticeable.
 
-- A*: 61 + 265 + 211 = 530 km
-- Greedy: 61 + 293 + 142 + 211 = 707 km
+- **A***: 61 + 265 + 211 = 530 km
+- **Greedy**: 61 + 293 + 142 + 211 = 707 km
 
 Therefore, the A* algorithm was much more efficient, reducing the total travel by 177 kilometers.
